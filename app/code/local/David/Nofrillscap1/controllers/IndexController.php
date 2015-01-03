@@ -4,15 +4,20 @@ class David_Nofrillscap1_IndexController extends Mage_Core_Controller_Front_Acti
 
     public function indexAction() {
 
-        $main_block = new Mage_Core_Block_Template ();
-        $main_block ->setTemplate('david/helloworld.phtml');
+        $block_1 = new Mage_Core_Block_Text();
+        $block_1 ->setText('The first sentence.');
 
-        $paragraph_block = new Mage_Core_Block_Text();
-        $paragraph_block->setText("este es un bloque hijo");
+        $block_2 = new Mage_Core_Block_Text();
+        $block_2 ->setText('The second sentence. ');
 
-        $main_block->setChild("the_first", $paragraph_block);
+        $main_block = new David_Nofrillscap1_Block_Helloworld();
+//        $main_block = new Mage_Core_Block_Template();
+//        $main_block ->setTemplate('david/helloworld.phtml');
 
-        echo $main_block->toHtml();
+        $main_block ->setChild('the_first', $block_1);
+        $main_block ->setChild('the_second', $block_2);
+
+        echo $main_block ->toHtml();
 
 // INICIO Imprime el tema por defecto
 //        $this->loadLayout();
