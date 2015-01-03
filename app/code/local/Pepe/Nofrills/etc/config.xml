@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Pepe_Nofrills>
+            <version>0.1.0</version>
+        </Pepe_Nofrills>
+    </modules>
+    <frontend>
+        <routers>
+            <Pepe_NoFrills_initial>
+                <use>standard</use>
+                <args>
+                    <module>Pepe_Nofrills</module>
+                    <frontName>pepe-nofrills</frontName>
+                </args>
+            </Pepe_NoFrills_initial>
+        </routers>
+    </frontend>
+</config>
