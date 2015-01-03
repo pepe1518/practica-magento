@@ -3,10 +3,22 @@
 class David_Nofrillscap1_IndexController extends Mage_Core_Controller_Front_Action{
 
     public function indexAction() {
-        $block = new Mage_Core_Block_Template ();
-        $block ->setTemplate('david/helloworld.phtml');
-        //var_dump($block ->getTemplateFile()); //<-- metodo que imprime la direccion del archivo ejmplo string(53) "frontend/base/default/template/david/helloworld.phtml"
-        echo $block->toHtml();
+
+        $main_block = new Mage_Core_Block_Template ();
+        $main_block ->setTemplate('david/helloworld.phtml');
+
+        $paragraph_block = new Mage_Core_Block_Text();
+        $paragraph_block->setText("este es un bloque hijo");
+
+        $main_block->setChild("the_first", $paragraph_block);
+
+        echo $main_block->toHtml();
+
+// INICIO Imprime el tema por defecto
+//        $this->loadLayout();
+//        $this->renderLayout();
+// FIN Imprime el tema por defecto
+
     }
 }
 
