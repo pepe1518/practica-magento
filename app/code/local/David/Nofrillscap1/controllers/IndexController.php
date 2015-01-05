@@ -19,12 +19,29 @@ class David_Nofrillscap1_IndexController extends Mage_Core_Controller_Front_Acti
 
         echo $main_block ->toHtml();
 
-// INICIO Imprime el tema por defecto
-//        $this->loadLayout();
-//        $this->renderLayout();
-// FIN Imprime el tema por defecto
+    }
+
+    public function layoutAction(){
+        $layout = Mage::getSingleton('core/layout');
+        $block = $layout->createBlock('core/template','root');
+        $block->setTemplate('david/helloworld-2.phtml');
+        echo $block->toHtml();
+    }
+
+    public function layout2Action() {
+        $layout = Mage::getSingleton('core/layout');
+        $block = $layout->createBlock('david_nofrillscap1/hellowolrd','root');
+
+        echo "antes";
+        $layout->addOutputBlock('root')->setDirectOutput(false);
+        echo "despues";
 
     }
+    public function layoutdemoAction() {
+
+    }
+
+
 }
 
 ?>
