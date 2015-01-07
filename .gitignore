@@ -1,3 +1,7 @@
-.idea/workspace.xml
+.idea/*
 var/*
 app/etc/local.xml
+media/catalog/product/cache/*
+media/tmp/*
+errors/local.xml
+downloader/*
