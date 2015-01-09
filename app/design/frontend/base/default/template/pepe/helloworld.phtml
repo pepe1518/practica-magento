@@ -1,1 +1,6 @@
-<?php echo "<h1>hola mundo</h1><h2>hola hola</h2>"; ?>
+<h1> Hola Mundo 1.0 </h1>
+<h2><?php echo $this->fetchTitle(); ?></h2>
+<div>
+    <p><?php  echo $this->getChildHtml('the_first'); ?></p>
+    <p><?php echo $this->getChildHtml('the_second'); ?></p>
+</div>
