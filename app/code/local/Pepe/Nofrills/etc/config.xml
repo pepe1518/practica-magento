@@ -6,6 +6,13 @@
             <version>0.1.0</version>
         </Pepe_Nofrills>
     </modules>
+    <global>
+        <block>
+            <pepe_nofrills>
+             <class>Pepe_Nofrills_Block_Holapepe</class>
+            </pepe_nofrills>
+        </block>
+    </global>
     <frontend>
         <routers>
             <Pepe_NoFrills_initial>
