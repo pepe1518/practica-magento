@@ -7,11 +7,11 @@
         </Pepe_Nofrills>
     </modules>
     <global>
-        <block>
+        <blocks>
             <pepe_nofrills>
-             <class>Pepe_Nofrills_Block_Holapepe</class>
+             <class>Pepe_Nofrills_Block</class>
             </pepe_nofrills>
-        </block>
+        </blocks>
     </global>
     <frontend>
         <routers>

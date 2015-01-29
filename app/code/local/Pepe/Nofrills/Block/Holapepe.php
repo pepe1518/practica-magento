@@ -4,7 +4,7 @@ class Pepe_Nofrills_Block_Holapepe extends Mage_Core_Block_Template {
 
     public function __construct() {
         $this->setTemplate('pepe/helloworld.phtml');
-        return parent::_construct();
+//        return parent::_construct();
     }
 
     public function _beforeToHtml() {

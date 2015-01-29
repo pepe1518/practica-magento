@@ -51,7 +51,7 @@ class Pepe_Nofrills_IndexController extends Mage_Core_Controller_Front_Action {
 //        echo $block->toHtml();
 
         $layout = Mage::getSingleton('core/layout');
-        $block = $layout->createBlock('pepe_nofrills/holapepe', 'root');
+        $block = $layout->createBlock('pepe_nofrills/Holapepe', 'root');
         echo $block->toHtml();
 
     }
