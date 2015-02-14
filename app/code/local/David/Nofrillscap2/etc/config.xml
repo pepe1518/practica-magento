@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <David_Nofrillscap2>
+            <version>1.0.0</version>
+        </David_Nofrillscap2>
+    </modules>
+    <global>
+        <blocks>
+            <david_nofrillscap2>
+                <class>David_Nofrillscap2_Block</class>
+            </david_nofrillscap2>
+        </blocks>
+        <helpers>
+            <david_nofrillscap2>
+                <class>David_Nofrillscap2_Helper</class>
+            </david_nofrillscap2>
+        </helpers>
+        <models>
+            <david_nofrillscap2>
+                <class>David_Nofrillscap2_Model</class>
+            </david_nofrillscap2>
+        </models>
+    </global>
+    <frontend>
+        <routers>
+            <davidnofrillscap2>
+                <use>standard</use>
+                <args>
+                    <module>David_Nofrillscap2</module>
+                    <frontName>davidcap2</frontName>
+                </args>
+            </davidnofrillscap2>
+        </routers>
+    </frontend>
+</config>
