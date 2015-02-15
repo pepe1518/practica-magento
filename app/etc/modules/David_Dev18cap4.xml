@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <David_Dev18cap4>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends></depends>
+        </David_Dev18cap4>
+    </modules>
+</config>
