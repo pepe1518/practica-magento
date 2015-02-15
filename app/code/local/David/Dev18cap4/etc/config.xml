@@ -39,5 +39,14 @@
                 </daviddev18cap4>
             </updates>
         </layout>
+        <translate>
+            <modules>
+                <David_Dev18cap4>
+                    <files>
+                        <default>David_Dev18cap4.csv</default>
+                    </files>
+                </David_Dev18cap4>
+            </modules>
+        </translate>
     </frontend>
 </config>

@@ -17,7 +17,10 @@
             <action method="setTemplate"><template>page/1column.phtml</template></action>
             <!--<action method="setTemplate"><template>page/3columns.phtml</template></action>-->
             <!--<action method="setTemplate"><template>page/2columns-right.phtml</template></action>-->
+        </reference>
 
+        <reference name="content">
+            <block type="david_dev18cap4/newproducts" name="block_newproducts" template="dev18cap4/newproducts.phtml"/>
         </reference>
     </daviddev18cap4_index_hello>
 
