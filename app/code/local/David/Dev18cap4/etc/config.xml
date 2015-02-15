@@ -22,4 +22,22 @@
             </david_dev18cap4>
         </models>
     </global>
+    <frontend>
+        <routers>
+            <daviddev18cap4>
+                <use>standard</use>
+                <args>
+                    <module>David_Dev18cap4</module>
+                    <frontName>daviddev18cap4</frontName>
+                </args>
+            </daviddev18cap4>
+        </routers>
+        <layout>
+            <updates>
+                <daviddev18cap4>
+                    <file>daviddev18cap4.xml</file>
+                </daviddev18cap4>
+            </updates>
+        </layout>
+    </frontend>
 </config>

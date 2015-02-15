@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <default>
+        <!--<remove name="header"/>-->
+        <!--<remove name="footer"/>-->
+        <!--<remove name="left"/>-->
+        <!--<remove name="content"/>-->
+    </default>
+
+    <!--
+        daviddev18cap4: apunta al layout update inicializado en congig.xml del modulo creado
+        index: apunta al controlador
+        hello: apunta a la accion del controllador
+    -->
+    <daviddev18cap4_index_hello>
+        <reference name="root">
+            <action method="setTemplate"><template>page/1column.phtml</template></action>
+            <!--<action method="setTemplate"><template>page/3columns.phtml</template></action>-->
+            <!--<action method="setTemplate"><template>page/2columns-right.phtml</template></action>-->
+
+        </reference>
+    </daviddev18cap4_index_hello>
+
+    <daviddev18cap4_index_index>
+        <reference name="root">
+            <!--<action method="setTemplate"><template>page/1column.phtml</template></action>-->
+            <!--<action method="setTemplate"><template>page/3columns.phtml</template></action>-->
+            <action method="setTemplate"><template>page/2columns-right.phtml</template></action>
+
+        </reference>
+    </daviddev18cap4_index_index>
+
+</layout>
