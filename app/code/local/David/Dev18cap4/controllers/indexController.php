@@ -16,6 +16,6 @@ class David_Dev18cap4_IndexController extends Mage_Core_Controller_Front_Action{
     public function helloAction(){
         $this->loadLayout();
         $this->renderLayout();
-        echo "hello...!!!";
+//        echo "hello...!!!";
     }
 }
