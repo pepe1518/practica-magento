@@ -11,11 +11,13 @@
                 <class>David_Dev18cap6_Block</class>
             </david_dev18cap6>
         </blocks>
+
         <helpers>
             <david_dev18cap6>
                 <class>David_Dev18cap6_Helper</class>
             </david_dev18cap6>
         </helpers>
+
         <models>
             <david_dev18cap6>
                 <class>David_Dev18cap6_Model</class>
@@ -26,6 +28,18 @@
             </dev18cap6_resource>
         </models>
 
+        <resources>
+            <dev18cap6_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </dev18cap6_write>
+            <dev18cap6_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </dev18cap6_read>
+        </resources>
     </global>
     <frontend>
         <routers>
