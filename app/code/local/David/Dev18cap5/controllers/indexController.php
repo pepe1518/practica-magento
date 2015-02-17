@@ -28,4 +28,19 @@ class David_Dev18cap5_IndexController extends Mage_Core_Controller_Front_Action{
         $result = $connection->query('select * from core_config_data where path like "%base%url%";')->fetchAll();
         Zend_Debug::dump($result);
     }
+
+    public function flatAction(){
+        $resource = Mage::getSingleton("core/resource");
+        $connection = $resource->getConnection('core_read');
+        $result = $connection->query('SELECT * FROM review_detail')->fetchAll();
+        Zend_Debug::dump($result);
+    }
+
+    public function flat2Action(){
+        $reviews = Mage::getModel('review/review')->getCollection();
+        foreach($reviews as $review){
+            echo $review->getReviewUrl().'<br/>';
+            Zend_Debug::dump($review->debug());
+        }
+    }
 }
