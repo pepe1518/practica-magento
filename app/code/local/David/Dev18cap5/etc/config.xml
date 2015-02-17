@@ -22,4 +22,15 @@
             </david_dev18cap5>
         </models>
     </global>
+    <frontend>
+        <routers>
+            <daviddev18cap5>
+                <use>standard</use>
+                <args>
+                    <module>David_Dev18cap5</module>
+                    <frontName>daviddev18cap5</frontName>
+                </args>
+            </daviddev18cap5>
+        </routers>
+    </frontend>
 </config>
