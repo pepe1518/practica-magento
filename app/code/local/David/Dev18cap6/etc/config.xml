@@ -29,6 +29,15 @@
         </models>
 
         <resources>
+            <dev18cap6_setup>
+                <setup>
+                    <module>David_Dev18cap6</module>
+                    <class>Mage_Eav_Model_Entity_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </dev18cap6_setup>
             <dev18cap6_write>
                 <connection>
                     <use>core_write</use>
