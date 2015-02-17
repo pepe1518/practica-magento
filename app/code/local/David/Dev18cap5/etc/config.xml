@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <David_Dev18cap5>
+            <version>1.0.0</version>
+        </David_Dev18cap5>
+    </modules>
+    <global>
+        <blocks>
+            <david_dev18cap5>
+                <class>David_Dev18cap5_Block</class>
+            </david_dev18cap5>
+        </blocks>
+        <helpers>
+            <david_dev18cap5>
+                <class>David_Dev18cap5_Helper</class>
+            </david_dev18cap5>
+        </helpers>
+        <models>
+            <david_dev18cap5>
+                <class>David_Dev18cap5_Model</class>
+            </david_dev18cap5>
+        </models>
+    </global>
+</config>
