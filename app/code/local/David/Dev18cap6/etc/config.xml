@@ -19,7 +19,23 @@
         <models>
             <david_dev18cap6>
                 <class>David_Dev18cap6_Model</class>
+                <resourceModel>dev18cap6_resource</resourceModel>
             </david_dev18cap6>
+            <dev18cap6_resource>
+                <class>David_Dev18cap6_Model_Resource</class>
+            </dev18cap6_resource>
         </models>
+
     </global>
+    <frontend>
+        <routers>
+            <daviddev18cap6>
+                <use>standard</use>
+                <args>
+                    <module>David_Dev18cap6</module>
+                    <frontName>daviddev18cap6</frontName>
+                </args>
+            </daviddev18cap6>
+        </routers>
+    </frontend>
 </config>
