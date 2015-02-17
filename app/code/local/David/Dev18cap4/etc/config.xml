@@ -1,52 +1,1 @@
-<?xml version="1.0"?>
-<config>
-    <modules>
-        <David_Dev18cap4>
-            <version>1.0.0</version>
-        </David_Dev18cap4>
-    </modules>
-    <global>
-        <blocks>
-            <david_dev18cap4>
-                <class>David_Dev18cap4_Block</class>
-            </david_dev18cap4>
-        </blocks>
-        <helpers>
-            <david_dev18cap4>
-                <class>David_Dev18cap4_Helper</class>
-            </david_dev18cap4>
-        </helpers>
-        <models>
-            <david_dev18cap4>
-                <class>David_Dev18cap4_Model</class>
-            </david_dev18cap4>
-        </models>
-    </global>
-    <frontend>
-        <routers>
-            <daviddev18cap4>
-                <use>standard</use>
-                <args>
-                    <module>David_Dev18cap4</module>
-                    <frontName>daviddev18cap4</frontName>
-                </args>
-            </daviddev18cap4>
-        </routers>
-        <layout>
-            <updates>
-                <daviddev18cap4>
-                    <file>daviddev18cap4.xml</file>
-                </daviddev18cap4>
-            </updates>
-        </layout>
-        <translate>
-            <modules>
-                <David_Dev18cap4>
-                    <files>
-                        <default>David_Dev18cap4.csv</default>
-                    </files>
-                </David_Dev18cap4>
-            </modules>
-        </translate>
-    </frontend>
-</config>
+<?xml version="1.0"?><config>    <modules>        <David_Dev18cap4>            <version>1.0.0</version>        </David_Dev18cap4>    </modules>    <global>        <blocks>            <david_dev18cap4>                <class>David_Dev18cap4_Block</class>            </david_dev18cap4>        </blocks>        <helpers>            <david_dev18cap4>                <class>David_Dev18cap4_Helper</class>            </david_dev18cap4>        </helpers>        <models>            <david_dev18cap4>                <class>David_Dev18cap4_Model</class>            </david_dev18cap4>            <catalog>                <rewrite>                    <product>David_Dev18cap4_Model_Catalog_Product</product>                </rewrite>            </catalog>        </models>    </global>    <frontend>        <routers>            <daviddev18cap4>                <use>standard</use>                <args>                    <module>David_Dev18cap4</module>                    <frontName>daviddev18cap4</frontName>                </args>            </daviddev18cap4>        </routers>        <layout>            <updates>                <daviddev18cap4>                    <file>daviddev18cap4.xml</file>                </daviddev18cap4>            </updates>        </layout>        <translate>            <modules>                <David_Dev18cap4>                    <files>                        <default>David_Dev18cap4.csv</default>                    </files>                </David_Dev18cap4>            </modules>        </translate>    </frontend></config>
