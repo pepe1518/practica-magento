@@ -1,14 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: v1t0
- * Date: 2/17/15
- * Time: 1:56 PM
- */
-//test if the DB conecction is working with this code
-//die('test');
-
-//code to create DB
+///**
+// * Created by PhpStorm.
+// * User: v1t0
+// * Date: 2/17/15
+// * Time: 1:56 PM
+// */
+////test if the DB conecction is working with this code
+////die('dev18cap6 BD 0.0.1');
+//
+////code to create DB
 $installer = $this;
 $installer->startSetup();
 $installer->addAttribute('catalog_product','helloworld_label',array(
