@@ -9,6 +9,19 @@ class Packt_Helloworld_IndexController extends Mage_Core_Controller_Front_Action
         $results = $connection->query('SELECT * FROM core_store')->fetchAll();
         
         Zend_Debug::dump($results);
+//$dbConfig = array(
+//    'host' => 'localhost',
+//    'dbname' => 'drupal',
+//    'username' => 'drupal_web',
+//    'password' => 'drupal_pwd',
+//);
+//$_resource = Mage::getSingleton('core/resource');
+//
+////Create the connection
+//$connection = $_resource->createConnection('drupalConnection', 'pdo_mysql', $dbConfig);
+//$results = $connection->query('SELECT * FROM node')->fetchAll();
+//
+//Zend_Debug::dump($results);
     }
     
     public function helloAction()
