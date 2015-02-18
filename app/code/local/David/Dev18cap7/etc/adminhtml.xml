@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menu>
+        <system>
+            <children>
+                <dev18cap7 translate="title" module="david_dev18cap7">
+                    <title>dev18cap7 2</title>
+                    <sort_order>100</sort_order>
+                    <action>adminhtml/dev18cap7_index</action>
+                </dev18cap7>
+            </children>
+        </system>
+    </menu>
+</config>

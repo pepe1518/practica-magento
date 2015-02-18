@@ -22,4 +22,17 @@
             </david_dev18cap7>
         </models>
     </global>
+
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <dev18cap7 before="Mage_Adminhtml">David_Dev18cap7_Adminhtml</dev18cap7>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+
 </config>
