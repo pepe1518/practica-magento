@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <dev18cap7>
+                                <title>Dev18cap7 index page</title>
+                                <sort_order>10</sort_order>
+                            </dev18cap7>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
     <menu>
         <system>
             <children>
-                <dev18cap7 translate="title" module="david_dev18cap7">
-                    <title>dev18cap7 2</title>
+                <dev18cap7 translate="title" module="dev18cap7">
+                    <title>dev18cap7</title>
                     <sort_order>100</sort_order>
                     <action>adminhtml/dev18cap7_index</action>
                 </dev18cap7>
