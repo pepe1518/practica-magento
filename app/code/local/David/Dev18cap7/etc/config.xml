@@ -35,4 +35,16 @@
         </routers>
     </admin>
 
+    <frontend>
+        <routers>
+            <daviddev18cap7>
+                <use>standard</use>
+                <args>
+                    <module>David_Dev18cap7</module>
+                    <frontName>daviddev18cap7</frontName>
+                </args>
+            </daviddev18cap7>
+        </routers>
+    </frontend>
+
 </config>

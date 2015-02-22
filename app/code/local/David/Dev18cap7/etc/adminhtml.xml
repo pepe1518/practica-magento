@@ -9,10 +9,21 @@
                 <children>
                     <system>
                         <children>
+                            <!--start example from an access list-->
                             <dev18cap7>
                                 <title>Dev18cap7 index page</title>
                                 <sort_order>10</sort_order>
                             </dev18cap7>
+
+                            <!--start accesslist for system.xml-->
+                            <config>
+                                <children>
+                                    <dev18cap7 translate="title" module="dev18cap7">
+                                        <title>Dev18cap7 Section</title>
+                                    </dev18cap7>
+                                </children>
+                            </config>
+                            <!--end accesslist for system.xml-->
                         </children>
                     </system>
                 </children>
