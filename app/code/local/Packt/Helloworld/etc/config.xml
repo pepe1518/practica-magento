@@ -65,7 +65,7 @@
                         <helloworld before="Mage_Adminhtml">Packt_Helloworld_Adminhtml</helloworld>
                     </modules>
                 </args>
-            </adminhtml>q
+            </adminhtml>
         </routers>
     </admin>
     <frontend>

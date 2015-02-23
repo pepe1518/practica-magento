@@ -7,19 +7,19 @@
     </modules>
     <global>
         <blocks>
-            <david_dev18cap7>
+            <dev18cap7>
                 <class>David_Dev18cap7_Block</class>
-            </david_dev18cap7>
+            </dev18cap7>
         </blocks>
         <helpers>
-            <david_dev18cap7>
+            <dev18cap7>
                 <class>David_Dev18cap7_Helper</class>
-            </david_dev18cap7>
+            </dev18cap7>
         </helpers>
         <models>
-            <david_dev18cap7>
+            <dev18cap7>
                 <class>David_Dev18cap7_Model</class>
-            </david_dev18cap7>
+            </dev18cap7>
         </models>
     </global>
 
@@ -34,5 +34,17 @@
             </adminhtml>
         </routers>
     </admin>
+
+    <frontend>
+        <routers>
+            <daviddev18cap7>
+                <use>standard</use>
+                <args>
+                    <module>David_Dev18cap7</module>
+                    <frontName>daviddev18cap7</frontName>
+                </args>
+            </daviddev18cap7>
+        </routers>
+    </frontend>
 
 </config>
