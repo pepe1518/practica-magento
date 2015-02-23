@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <carriers>
+            <groups>
+                <shipcarretilla translate="label" module="shipping">
+                    <label>David</label>
+                </shipcarretilla>
+            </groups>
+        </carriers>
+    </sections>
+</config>
