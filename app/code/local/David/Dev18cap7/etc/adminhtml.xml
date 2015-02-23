@@ -7,6 +7,16 @@
             </all>
             <admin>
                 <children>
+                    <!--start ACL for subscription-->
+                    <customer>
+                        <children>
+                            <subscription>
+                                <title>dev18cap7 subscription</title>
+                                <sort_orden>10</sort_orden>
+                            </subscription>
+                        </children>
+                    </customer>
+                    <!--end ACL for subscription-->
                     <system>
                         <children>
                             <!--start example from an access list-->
@@ -40,5 +50,14 @@
                 </dev18cap7>
             </children>
         </system>
+        <customer>
+            <children>
+                <subscription translate="title" module="dev18cap7">
+                    <title>Dev18cap7 Subscription</title>
+                    <sort_order>10</sort_order>
+                    <action>adminhtml/dev18cap7_subscription</action>
+                </subscription>
+            </children>
+        </customer>
     </menu>
 </config>
