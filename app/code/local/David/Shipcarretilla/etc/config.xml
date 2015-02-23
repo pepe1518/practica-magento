@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <David_Shipcarretilla>
+            <version>0.0.1</version>
+        </David_Shipcarretilla>
+    </modules>
+    <global>
+        <blocks>
+            <shipcarretilla>
+                <class>David_Shipcarretilla_Block</class>
+            </shipcarretilla>
+        </blocks>
+        <helpers>
+            <shipcarretilla>
+                <class>David_Shipcarretilla_Helper</class>
+            </shipcarretilla>
+        </helpers>
+        <models>
+            <david_shipcarretilla>
+                <class>David_Shipcarretilla_Model</class>
+            </shipcarretilla>
+        </models>
+    </global>
+    <default>
+        <carriers>
+            <shipcarretilla>
+                <active>1</active>
+                <model>shipcarretilla/carrier_shipcarretilla</model>
+                <title>shipcarretilla shipping</title>
+
+                <express_enabled>1</express_enabled>
+                <express_title>Express delivery</express_title>
+                <express_price>4</express_price>
+
+                <business_enabled>1</business_enabled>
+                <business_title>Business delivery</business_title>
+                <business_price>5</business_price>
+            </shipcarretilla>
+        </carriers>
+    </default>
+</config>
