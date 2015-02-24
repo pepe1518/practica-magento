@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <david>
+            <label>David</label>
+            <sort_order>400</sort_order>
+        </david>
+    </tabs>
+    <sections>
+        <dev18cap7 translate="label" module="dev18cap7">
+            <label>dev18cap7</label>
+            <tab>david</tab>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+
+            <groups><!-- start creation of configuration page you eed to give access to on adminhtml.xml-->
+                <dev18cap7page translate="label">
+                    <label>Dev18cap7 page settings</label>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <header_title translate="label">
+                            <label>Header title</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </header_title>
+                    </fields>
+                </dev18cap7page>
+            </groups>
+        </dev18cap7>
+    </sections>
+</config>

@@ -15,15 +15,15 @@ class David_Nofrillscap1_Block_Helloworld extends Mage_Core_Block_Template{
         $this->setChild('the_second', $block_2);
     }
 
-    public function fetchTitle()
-    {
-        return 'Hello Fancy World!!!';
-    }
-
-    public function  fetchView($fileName){
-        $this->setScriptPath( Mage::getModuleDir('', 'Nofrills_Booklayout') . DS . 'design');
-        return parent::fetchView($this->getTemplate());
-    }
+//    public function fetchTitle()
+//    {
+//        return 'Hello Fancy World!!!';
+//    }
+//
+//    public function  fetchView($fileName){
+//        $this->setScriptPath( Mage::getModuleDir('', 'Nofrills_Booklayout') . DS . 'design');
+//        return parent::fetchView($this->getTemplate());
+//    }
 
 }
 ?>

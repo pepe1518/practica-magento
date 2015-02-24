@@ -1,0 +1,22 @@
+<layout>
+    <block type="david_nofrillscap2/template" name="root" template="simple-page/2col.phtml" output="toHtml">
+
+        <block type="david_nofrillscap2/template" name="additional_head" template="simple-page/head.phtml" />
+        <block type="david_nofrillscap2/template" name="sidebar">
+            <action method="setTemplate">
+                <template>simple-page/sidebar.phtml</template>
+            </action>
+        </block>
+
+        <block type="core/text_list" name="content" />
+
+        <reference name="content">
+            <block type="core/text" name="goodbye">
+                <action method="setText">
+                    <text>The lazy dog was faking it.</text>
+                </action>
+            </block>
+        </reference>
+
+    </block>
+</layout>

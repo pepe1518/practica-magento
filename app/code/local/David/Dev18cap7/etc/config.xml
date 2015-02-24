@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <David_Dev18cap7>
+            <version>1.0.0</version>
+        </David_Dev18cap7>
+    </modules>
+    <global>
+        <blocks>
+            <dev18cap7>
+                <class>David_Dev18cap7_Block</class>
+            </dev18cap7>
+        </blocks>
+        <helpers>
+            <dev18cap7>
+                <class>David_Dev18cap7_Helper</class>
+            </dev18cap7>
+        </helpers>
+        <models>
+            <dev18cap7>
+                <class>David_Dev18cap7_Model</class>
+            </dev18cap7>
+        </models>
+    </global>
+
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <dev18cap7 before="Mage_Adminhtml">David_Dev18cap7_Adminhtml</dev18cap7>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+
+    <frontend>
+        <routers>
+            <daviddev18cap7>
+                <use>standard</use>
+                <args>
+                    <module>David_Dev18cap7</module>
+                    <frontName>daviddev18cap7</frontName>
+                </args>
+            </daviddev18cap7>
+        </routers>
+    </frontend>
+
+</config>
