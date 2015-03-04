@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Jose_Holapepe>
+            <version>1.0.0</version>
+        </Jose_Holapepe>
+    </modules>
+    <global>
+        <blocks>
+            <holapepe>
+                <class>Holapepe_Block</class>
+            </holapepe>
+        </blocks>
+        <helpers>
+            <holapepe>
+                <class>Holapepe_Helper</class>
+            </holapepe>
+        </helpers>
+        <models>
+            <holapepe>
+                <class>Holapepe_Model</class>
+            </holapepe>
+        </models>
+    </global>
+    <fronend>
+        <routers>
+            <holapepe>
+                <use>standard</use>
+                <args>
+                    <module>Jose_Holapepe</module>
+                    <frontName>holapepe</frontName>
+                </args>
+            </holapepe>
+        </routers>
+    </fronend>
+</config>
