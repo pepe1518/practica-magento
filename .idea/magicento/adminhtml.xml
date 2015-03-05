@@ -177,7 +177,11 @@
                             <action>adminhtml/api_role</action>
                             <sort_order>20</sort_order>
                         </roles></children>
-                <title>Web Services</title><sort_order>25</sort_order></api></children>
+                <title>Web Services</title><sort_order>25</sort_order></api><dev18cap7 translate="title" module="dev18cap7">
+                    <title>dev18cap7</title>
+                    <sort_order>100</sort_order>
+                    <action>adminhtml/dev18cap7_index</action>
+                </dev18cap7></children>
         <title>System</title><sort_order>90</sort_order></system><dashboard translate="title" module="adminhtml">
             <title>Dashboard</title>
             <sort_order>10</sort_order>
@@ -287,7 +291,11 @@
                     <action>adminhtml/customer_online/</action>
                     <sort_order>100</sort_order>
                 </online>
-            </children>
+            <subscription translate="title" module="dev18cap7">
+                    <title>Dev18cap7 Subscription</title>
+                    <sort_order>10</sort_order>
+                    <action>adminhtml/dev18cap7_subscription</action>
+                </subscription></children>
          </customer><report>
             <children>
                 <products>
@@ -651,7 +659,9 @@
                                         <sort_order>20</sort_order>
                                     </oauth><api translate="title" module="api">
                                         <title>Magento Core API Section</title>
-                                    </api></children>
+                                    </api><dev18cap7 translate="title" module="dev18cap7">
+                                        <title>Dev18cap7 Section</title>
+                                    </dev18cap7></children>
                             <title>Configuration</title><sort_order>20</sort_order></config>
                         <index translate="title">
                                 <title>Index Management</title>
@@ -820,7 +830,10 @@
                                         <title>SOAP/XML-RPC - Roles</title>
                                         <sort_order>20</sort_order>
                                     </roles></children>
-                            <title>Web Services</title><sort_order>0</sort_order></api></children>
+                            <title>Web Services</title><sort_order>0</sort_order></api><dev18cap7>
+                                <title>Dev18cap7 index page</title>
+                                <sort_order>10</sort_order>
+                            </dev18cap7></children>
                     <title>System</title><sort_order>90</sort_order></system>
                 <page_cache translate="title" module="pageCache">
                         <title>External Page Cache</title>
@@ -906,7 +919,10 @@
                                 <title>Online Customers</title>
                                 <sort_order>100</sort_order>
                             </online>
-                        </children>
+                        <subscription>
+                                <title>dev18cap7 subscription</title>
+                                <sort_orden>10</sort_orden>
+                            </subscription></children>
                     </customer><promo translate="title" module="catalogrule">
                         <title>Promotions</title>
                         <sort_order>50</sort_order>
@@ -1141,8 +1157,8 @@
                    </newsletter></children>
             <title>Magento Admin</title></admin>
         <all>
-                <title>Allow everything</title>
-            </all></resources>
+                
+            <title>Allow Everything</title></all></resources>
     <privilegeSets>
             <default>
                 <view>

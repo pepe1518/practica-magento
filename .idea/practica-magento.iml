@@ -8,11 +8,17 @@
       <library name="PHARS">
         <CLASSES>
           <root url="phar://$MODULE_DIR$/lib/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder.phar" />
+<<<<<<< HEAD
           <root url="phar://$MODULE_DIR$/magerun.phar" />
         </CLASSES>
         <SOURCES>
           <root url="phar://$MODULE_DIR$/lib/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder.phar" />
           <root url="phar://$MODULE_DIR$/magerun.phar" />
+=======
+        </CLASSES>
+        <SOURCES>
+          <root url="phar://$MODULE_DIR$/lib/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder.phar" />
+>>>>>>> modulo-ajax
         </SOURCES>
       </library>
     </orderEntry>

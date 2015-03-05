@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <David_Dev18cap6>
+            <version>0.0.2</version>
+        </David_Dev18cap6>
+    </modules>
+    <global>
+        <blocks>
+            <david_dev18cap6>
+                <class>David_Dev18cap6_Block</class>
+            </david_dev18cap6>
+        </blocks>
+
+        <helpers>
+            <david_dev18cap6>
+                <class>David_Dev18cap6_Helper</class>
+            </david_dev18cap6>
+        </helpers>
+
+        <models>
+            <!--
+            problema interesante sobre la creacion de tablas en amgento
+            http://stackoverflow.com/questions/15137959/how-to-get-magento-table-name
+            -->
+            <dev18cap6> <!--este es el nombre con el que se llamara en el archivo install o upgrade del sql-->
+                <class>David_Dev18cap6_Model</class>
+                <resourceModel>dev18cap6_resource</resourceModel>
+            </dev18cap6>
+            <dev18cap6_resource>
+                <class>David_Dev18cap6_Model_Resource</class>
+                <entities>
+                    <subscription>
+                        <table>dev18cap6_subscription</table>
+                    </subscription>
+                </entities>
+            </dev18cap6_resource>
+        </models>
+
+        <resources>
+            <dev18cap6_setup>
+                <setup>
+                    <module>David_Dev18cap6</module>
+                    <class>Mage_Eav_Model_Entity_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </dev18cap6_setup>
+            <dev18cap6_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </dev18cap6_write>
+            <dev18cap6_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </dev18cap6_read>
+        </resources>
+    </global>
+    <frontend>
+        <routers>
+            <daviddev18cap6>
+                <use>standard</use>
+                <args>
+                    <module>David_Dev18cap6</module>
+                    <frontName>daviddev18cap6</frontName>
+                </args>
+            </daviddev18cap6>
+        </routers>
+    </frontend>
+</config>

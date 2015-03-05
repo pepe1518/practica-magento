@@ -22,7 +22,7 @@
             </holapepe>
         </models>
     </global>
-    <fronend>
+    <frontend>
         <routers>
             <holapepe>
                 <use>standard</use>
@@ -32,5 +32,21 @@
                 </args>
             </holapepe>
         </routers>
-    </fronend>
+        <layout>
+            <updates>
+                <holapepe>
+                    <file>holapepe.xml</file>
+                </holapepe>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <Jose_Holapepe>
+                    <files>
+                        <default>Jose_Holapepe.csv</default>
+                    </files>
+                </Jose_Holapepe>
+            </modules>
+        </translate>
+    </frontend>
 </config>

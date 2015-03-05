@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <!--start ACL for subscription-->
+                    <customer>
+                        <children>
+                            <subscription>
+                                <title>dev18cap7 subscription</title>
+                                <sort_orden>10</sort_orden>
+                            </subscription>
+                        </children>
+                    </customer>
+                    <!--end ACL for subscription-->
+                    <system>
+                        <children>
+                            <!--start example from an access list-->
+                            <dev18cap7>
+                                <title>Dev18cap7 index page</title>
+                                <sort_order>10</sort_order>
+                            </dev18cap7>
+
+                            <!--start accesslist for system.xml-->
+                            <config>
+                                <children>
+                                    <dev18cap7 translate="title" module="dev18cap7">
+                                        <title>Dev18cap7 Section</title>
+                                    </dev18cap7>
+                                </children>
+                            </config>
+                            <!--end accesslist for system.xml-->
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <system>
+            <children>
+                <dev18cap7 translate="title" module="dev18cap7">
+                    <title>dev18cap7</title>
+                    <sort_order>100</sort_order>
+                    <action>adminhtml/dev18cap7_index</action>
+                </dev18cap7>
+            </children>
+        </system>
+        <customer>
+            <children>
+                <subscription translate="title" module="dev18cap7">
+                    <title>Dev18cap7 Subscription</title>
+                    <sort_order>10</sort_order>
+                    <action>adminhtml/dev18cap7_subscription</action>
+                </subscription>
+            </children>
+        </customer>
+    </menu>
+</config>

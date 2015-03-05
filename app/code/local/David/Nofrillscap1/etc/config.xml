@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <David_Nofrillscap1>
+            <version>0.0.1</version>
+        </David_Nofrillscap1>
+    </modules>
+
+    <!-- INICIO declaracion del custom block-->
+    <global>
+        <blocks>
+            <david_nofrillscap1>
+                <class>David_Nofrillscap1_Block</class>
+            </david_nofrillscap1>
+        </blocks>
+
+        <helpers>
+            <david_nofrillscap1>
+                <class>David_Nofrillscap1_Helper</class>
+            </david_nofrillscap1>
+        </helpers>
+    </global>
+    <!-- FIN declaracion del custom block-->
+
+
+    <!-- INICIO mejor explicacion de este bloque en: http://alanstorm.com/magento_controller_hello_world-->
+    <frontend>
+        <routers>
+            <davidnofrillscap1> <!-- No debe contener caracteres como _ -  sino no carga la pgaina del controlador-->
+                <use>standard</use>
+                <args>
+                    <module>David_Nofrillscap1</module>
+                    <frontName>davidnofrillscap1</frontName> <!-- equivale a la direccion: http://david.practica-magento.com/davidnofrillscap1/index/index-->
+                </args>
+            </davidnofrillscap1>
+        </routers>
+    </frontend>
+    <!-- FIN mejor explicacion de este bloque en: http://alanstorm.com/magento_controller_hello_world-->
+
+</config>
+
+
