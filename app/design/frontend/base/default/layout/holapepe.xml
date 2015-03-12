@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <layout>
     <holapepe_index_hello>
-        <!--<reference name="root">-->
-            <!--<action method="setTemplate">-->
-                <!--<template>page/2columns-right.phtml</template>-->
-            <!--</action>-->
-        <!--</reference>-->
+        <default>
+            <!--<remove name="header"/>-->
+            <!--<remove name="footer"/>-->
+            <!--<remove name="left"/>-->
+            <!--<remove name="content"/>-->
+        </default>
+
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/2columns-right.phtml</template>
+            </action>
+        </reference>
         <reference name="content">
-            <block type="holapepe/newproducts" name="block_newproducts" template="holapepe/newprodducts.phtml" />
+            <block type="holapepe/newproducts" name="block_newproducts" template="holapepe/newproducts.phtml"/>
         </reference>
     </holapepe_index_hello>
 </layout>
