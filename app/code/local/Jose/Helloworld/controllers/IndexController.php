@@ -21,4 +21,19 @@ class Jose_Helloworld_IndexController extends Mage_Core_Controller_Front_Action 
         $this->loadLayout();
         $this->renderLayout();
     }
+
+    public function flatAction() {
+//        $resource = Mage::getSingleton('core/resource');
+//        $connection = $resource->getConnetcion('core_read');
+//
+//        $results = $connection->query('SELECT * FROM review_detail')->fetchAll();
+//
+//        Zend_Debug($results);
+
+        $resources = Mage::getModel('review/review')->getCollection();
+
+        foreach ($resources as $resource) {
+            echo $resource->getReviewUrl() . '<br />';
+        }
+    }
 }

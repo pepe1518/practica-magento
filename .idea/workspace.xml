@@ -2,103 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="733acb5f-48ef-4ff2-8426-16542a9a5887" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/default/default/images/ajaxlogin/close.png" afterPath="$PROJECT_DIR$/skin/frontend/default/default/images/ajaxlogin/close.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/default/default/images/ajaxlogin/preload.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/default/images/ajaxlogin/preload.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Nofrillscap2/design/simple-page/2col.phtml" afterPath="$PROJECT_DIR$/app/code/local/David/Nofrillscap2/design/simple-page/2col.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Sean/Clubz/design/simple-page/2col.phtml" afterPath="$PROJECT_DIR$/app/code/local/Sean/Clubz/design/simple-page/2col.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Dev18cap6/Model/Resource/Subscription/Collection.php" afterPath="$PROJECT_DIR$/app/code/local/David/Dev18cap6/Model/Resource/Subscription/Collection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/community/Magemall/Ajaxlogin/Helper/Data.php" afterPath="$PROJECT_DIR$/app/code/community/Magemall/Ajaxlogin/Helper/Data.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Nofrillscap1/Helper/Data.php" afterPath="$PROJECT_DIR$/app/code/local/David/Nofrillscap1/Helper/Data.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Jose/Holapepe/Helper/Data.php" afterPath="$PROJECT_DIR$/app/code/local/Jose/Holapepe/Helper/Data.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Sean/Clubz/Helper/Data.php" afterPath="$PROJECT_DIR$/app/code/local/Sean/Clubz/Helper/Data.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Nofrillscap2/controllers/DavidController.php" afterPath="$PROJECT_DIR$/app/code/local/David/Nofrillscap2/controllers/DavidController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/locale/en_US/David_Dev18cap4.csv" afterPath="$PROJECT_DIR$/app/locale/en_US/David_Dev18cap4.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/David_Dev18cap4.xml" afterPath="$PROJECT_DIR$/app/etc/modules/David_Dev18cap4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/David_Dev18cap5.xml" afterPath="$PROJECT_DIR$/app/etc/modules/David_Dev18cap5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/David_Dev18cap6.xml" afterPath="$PROJECT_DIR$/app/etc/modules/David_Dev18cap6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/David_Dev18cap7.xml" afterPath="$PROJECT_DIR$/app/etc/modules/David_Dev18cap7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/David_Nofrills.xml" afterPath="$PROJECT_DIR$/app/etc/modules/David_Nofrills.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/David_Nofrillscap2.xml" afterPath="$PROJECT_DIR$/app/etc/modules/David_Nofrillscap2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/David_Shipcarretilla.xml" afterPath="$PROJECT_DIR$/app/etc/modules/David_Shipcarretilla.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/community/Magemall/Ajaxlogin/Block/Form.php" afterPath="$PROJECT_DIR$/app/code/community/Magemall/Ajaxlogin/Block/Form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Dev18cap7/Block/Adminhtml/Subscription123/Grid.php" afterPath="$PROJECT_DIR$/app/code/local/David/Dev18cap7/Block/Adminhtml/Subscription123/Grid.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Nofrillscap1/Block/Helloworld.php" afterPath="$PROJECT_DIR$/app/code/local/David/Nofrillscap1/Block/Helloworld.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Sean/Clubz/Block/Helloworld.php" afterPath="$PROJECT_DIR$/app/code/local/Sean/Clubz/Block/Helloworld.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Pepe/Nofrills/Block/Holapepe.php" afterPath="$PROJECT_DIR$/app/code/local/Pepe/Nofrills/Block/Holapepe.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Dev18cap7/controllers/IndexController.php" afterPath="$PROJECT_DIR$/app/code/local/David/Dev18cap7/controllers/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Dev18cap7/controllers/Adminhtml/Dev18cap7/IndexController.php" afterPath="$PROJECT_DIR$/app/code/local/David/Dev18cap7/controllers/Adminhtml/Dev18cap7/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Nofrillscap1/controllers/IndexController.php" afterPath="$PROJECT_DIR$/app/code/local/David/Nofrillscap1/controllers/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Nofrillscap2/controllers/IndexController.php" afterPath="$PROJECT_DIR$/app/code/local/David/Nofrillscap2/controllers/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Jose/Holapepe/controllers/IndexController.php" afterPath="$PROJECT_DIR$/app/code/local/Jose/Holapepe/controllers/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Pepe/Nofrills/controllers/IndexController.php" afterPath="$PROJECT_DIR$/app/code/local/Pepe/Nofrills/controllers/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Sean/Clubz/controllers/IndexController.php" afterPath="$PROJECT_DIR$/app/code/local/Sean/Clubz/controllers/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/locale/en_US/Jose_Holapepe.csv" afterPath="$PROJECT_DIR$/app/locale/en_US/Jose_Holapepe.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Jose_Holapepe.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Jose_Holapepe.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/community/Magemall/Ajaxlogin/Block/Js.php" afterPath="$PROJECT_DIR$/app/code/community/Magemall/Ajaxlogin/Block/Js.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Sean/Clubz/controllers/LayoutdemoController.php" afterPath="$PROJECT_DIR$/app/code/local/Sean/Clubz/controllers/LayoutdemoController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/community/Magemall/Ajaxlogin/controllers/LoginController.php" afterPath="$PROJECT_DIR$/app/code/community/Magemall/Ajaxlogin/controllers/LoginController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Magemall_Ajaxlogin.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Magemall_Ajaxlogin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Dev18cap4/Block/Newproducts.php" afterPath="$PROJECT_DIR$/app/code/local/David/Dev18cap4/Block/Newproducts.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Jose/Holapepe/Block/Newproducts.php" afterPath="$PROJECT_DIR$/app/code/local/Jose/Holapepe/Block/Newproducts.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Pepe_Nofrills.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Pepe_Nofrills.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Dev18cap4/Model/Catalog/Product.php" afterPath="$PROJECT_DIR$/app/code/local/David/Dev18cap4/Model/Catalog/Product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Dev18cap6/Model/Resource/Subscription.php" afterPath="$PROJECT_DIR$/app/code/local/David/Dev18cap6/Model/Resource/Subscription.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Dev18cap7/Block/Adminhtml/Subscription.php" afterPath="$PROJECT_DIR$/app/code/local/David/Dev18cap7/Block/Adminhtml/Subscription.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Dev18cap7/controllers/Adminhtml/Dev18cap7/SubscriptionController.php" afterPath="$PROJECT_DIR$/app/code/local/David/Dev18cap7/controllers/Adminhtml/Dev18cap7/SubscriptionController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Nofrillscap1/Block/Template.php" afterPath="$PROJECT_DIR$/app/code/local/David/Nofrillscap1/Block/Template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Nofrillscap2/Block/Template.php" afterPath="$PROJECT_DIR$/app/code/local/David/Nofrillscap2/Block/Template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Sean/Clubz/Block/Template.php" afterPath="$PROJECT_DIR$/app/code/local/Sean/Clubz/Block/Template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Nofrillscap2/controllers/UpdateController.php" afterPath="$PROJECT_DIR$/app/code/local/David/Nofrillscap2/controllers/UpdateController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Pepe/Nofrills/controllers/UpdateController.php" afterPath="$PROJECT_DIR$/app/code/local/Pepe/Nofrills/controllers/UpdateController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Sean/Clubz/controllers/UpdateController.php" afterPath="$PROJECT_DIR$/app/code/local/Sean/Clubz/controllers/UpdateController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/magicento/adminhtml.xml" afterPath="$PROJECT_DIR$/.idea/magicento/adminhtml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skin/frontend/default/default/css/ajaxlogin.css" afterPath="$PROJECT_DIR$/skin/frontend/default/default/css/ajaxlogin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ajaxlogin.js" afterPath="$PROJECT_DIR$/js/ajaxlogin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/magemall/ajaxlogin.js" afterPath="$PROJECT_DIR$/js/magemall/ajaxlogin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/default/layout/ajaxlogin.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/default/layout/ajaxlogin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Nofrillscap2/page-layouts/complex.xml" afterPath="$PROJECT_DIR$/app/code/local/David/Nofrillscap2/page-layouts/complex.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Sean/Clubz/page-layouts/complex.xml" afterPath="$PROJECT_DIR$/app/code/local/Sean/Clubz/page-layouts/complex.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/community/Magemall/Ajaxlogin/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/community/Magemall/Ajaxlogin/etc/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Dev18cap4/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/local/David/Dev18cap4/etc/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Dev18cap5/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/local/David/Dev18cap5/etc/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Dev18cap6/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/local/David/Dev18cap6/etc/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Dev18cap7/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/local/David/Dev18cap7/etc/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Nofrillscap1/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/local/David/Nofrillscap1/etc/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Nofrillscap2/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/local/David/Nofrillscap2/etc/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Shipcarretilla/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/local/David/Shipcarretilla/etc/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Jose/Holapepe/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/local/Jose/Holapepe/etc/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Pepe/Nofrills/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/local/Pepe/Nofrills/etc/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Sean/Clubz/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/local/Sean/Clubz/etc/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/base/default/layout/daviddev18cap4.xml" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/layout/daviddev18cap4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/default/template/ajaxlogin/form.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/default/template/ajaxlogin/form.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Nofrillscap2/design/simple-page/head.phtml" afterPath="$PROJECT_DIR$/app/code/local/David/Nofrillscap2/design/simple-page/head.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Sean/Clubz/design/simple-page/head.phtml" afterPath="$PROJECT_DIR$/app/code/local/Sean/Clubz/design/simple-page/head.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/base/default/template/pepe/helloword-2.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/template/pepe/helloword-2.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/base/default/template/david/helloworld-2.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/template/david/helloworld-2.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/rwd/default/template/helloworld-2.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/rwd/default/template/helloworld-2.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/base/default/template/david/helloworld.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/template/david/helloworld.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/base/default/template/pepe/helloworld.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/template/pepe/helloworld.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/rwd/default/template/helloworld.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/rwd/default/template/helloworld.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/base/default/layout/holapepe.xml" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/layout/holapepe.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Dev18cap4/controllers/indexController.php" afterPath="$PROJECT_DIR$/app/code/local/David/Dev18cap4/controllers/indexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Dev18cap5/controllers/indexController.php" afterPath="$PROJECT_DIR$/app/code/local/David/Dev18cap5/controllers/indexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Dev18cap6/controllers/indexController.php" afterPath="$PROJECT_DIR$/app/code/local/David/Dev18cap6/controllers/indexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Dev18cap6/sql/dev18cap6_setup/install-0.0.1.php" afterPath="$PROJECT_DIR$/app/code/local/David/Dev18cap6/sql/dev18cap6_setup/install-0.0.1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/jose.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/jose.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/default/template/ajaxlogin/js.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/default/template/ajaxlogin/js.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/magicento.xml" afterPath="$PROJECT_DIR$/.idea/magicento.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/base/default/template/Dev18cap4/newproducts.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/template/Dev18cap4/newproducts.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/base/default/template/helloworld/newproducts.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/template/helloworld/newproducts.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/base/default/template/holapepe/newproducts.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/template/holapepe/newproducts.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Nofrillscap2/design/simple-page/sidebar.phtml" afterPath="$PROJECT_DIR$/app/code/local/David/Nofrillscap2/design/simple-page/sidebar.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Sean/Clubz/design/simple-page/sidebar.phtml" afterPath="$PROJECT_DIR$/app/code/local/Sean/Clubz/design/simple-page/sidebar.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/community/Magemall/Ajaxlogin/etc/system.xml" afterPath="$PROJECT_DIR$/app/code/community/Magemall/Ajaxlogin/etc/system.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Dev18cap7/etc/system.xml" afterPath="$PROJECT_DIR$/app/code/local/David/Dev18cap7/etc/system.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Shipcarretilla/etc/system.xml" afterPath="$PROJECT_DIR$/app/code/local/David/Shipcarretilla/etc/system.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/tinybox.js" afterPath="$PROJECT_DIR$/js/tinybox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/magemall/tinybox.js" afterPath="$PROJECT_DIR$/js/magemall/tinybox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/David/Dev18cap6/sql/dev18cap6_setup/upgrade-0.0.1-0.0.2.php" afterPath="$PROJECT_DIR$/app/code/local/David/Dev18cap6/sql/dev18cap6_setup/upgrade-0.0.1-0.0.2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Jose/Helloworld/controllers/IndexController.php" afterPath="$PROJECT_DIR$/app/code/local/Jose/Helloworld/controllers/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Jose/Helloworld/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/local/Jose/Helloworld/etc/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="practica-magento.iws" />
@@ -124,12 +29,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/code/local/Jose/Helloworld/etc/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="954">
-              <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+            <state vertical-scroll-proportion="0.7627119" vertical-offset="360" max-vertical-offset="1242">
+              <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Abstract.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Abstract.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.6666665" vertical-offset="1395" max-vertical-offset="10782">
+              <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
+              <folding>
+                <element signature="e#6#942#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -174,15 +91,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/local/Jose/Helloworld/controllers/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47098976" vertical-offset="0" max-vertical-offset="879">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state vertical-scroll-proportion="-7.4814816" vertical-offset="428" max-vertical-offset="792">
+              <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
               <folding>
-                <marker date="1426113507093" expanded="true" signature="308:332" placeholder="SELECT * FRO..core_store..." />
-                <marker date="1426113507093" expanded="true" signature="507:531" placeholder="SELECT * FRO..core_store..." />
+                <marker date="1426199548728" expanded="true" signature="308:332" placeholder="SELECT * FRO..core_store..." />
+                <marker date="1426199548728" expanded="true" signature="507:531" placeholder="SELECT * FRO..core_store..." />
+                <marker date="1426199548728" expanded="true" signature="982:1009" placeholder="SELECT * FRO..review_detail..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/local/David/Dev18cap6/etc/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="756" max-vertical-offset="1404">
+              <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -192,16 +120,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="162">
               <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Jose/Holapepe/etc/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="1026">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="6" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -246,15 +164,17 @@
         <option value="$PROJECT_DIR$/app/design/frontend/base/default/layout/hellopepe2.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/helloworld/newproducts.phtml" />
         <option value="$PROJECT_DIR$/app/code/local/Jose/Helloworld/Model/Catalog/Product.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Jose/Helloworld/etc/config.xml" />
         <option value="$PROJECT_DIR$/app/code/local/Jose/Helloworld/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Jose/Helloworld/etc/config.xml" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1055" />
+    <option name="x" value="-1" />
+    <option name="y" value="527" />
+    <option name="width" value="1922" />
+    <option name="height" value="527" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -282,6 +202,10 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Default" />
+        <subPane subId="Project Files" />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -293,14 +217,10 @@
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
-      <pane id="Scope">
-        <subPane subId="Default" />
-        <subPane subId="Project Files" />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ilusion-usa" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
   </component>
@@ -352,7 +272,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1055" extended-state="0" />
+    <frame x="-1" y="527" width="1922" height="527" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -361,7 +281,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20779915" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21611527" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -418,20 +338,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/code/local/Packt/Helloworld/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1296" max-vertical-offset="1854">
-          <caret line="86" column="17" selection-start-line="80" selection-start-column="8" selection-end-line="86" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Jose/Holapepe/controllers/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="378">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/holapepe/newproducts.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="126">
@@ -770,22 +676,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Jose/Helloworld/etc/config.xml">
+    <entry file="file://$PROJECT_DIR$/app/code/local/Jose/Helloworld/controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="954">
-          <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+        <state vertical-scroll-proportion="-7.4814816" vertical-offset="428" max-vertical-offset="792">
+          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+          <folding>
+            <marker date="1426199548728" expanded="true" signature="308:332" placeholder="SELECT * FRO..core_store..." />
+            <marker date="1426199548728" expanded="true" signature="507:531" placeholder="SELECT * FRO..core_store..." />
+            <marker date="1426199548728" expanded="true" signature="982:1009" placeholder="SELECT * FRO..review_detail..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Abstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.6666665" vertical-offset="1395" max-vertical-offset="10782">
+          <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
+          <folding>
+            <element signature="e#6#942#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/David/Dev18cap6/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="756" max-vertical-offset="1404">
+          <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Jose/Helloworld/controllers/IndexController.php">
+    <entry file="file://$PROJECT_DIR$/app/code/local/Jose/Helloworld/etc/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47098976" vertical-offset="0" max-vertical-offset="879">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <marker date="1426113507093" expanded="true" signature="308:332" placeholder="SELECT * FRO..core_store..." />
-            <marker date="1426113507093" expanded="true" signature="507:531" placeholder="SELECT * FRO..core_store..." />
-          </folding>
+        <state vertical-scroll-proportion="0.7627119" vertical-offset="360" max-vertical-offset="1242">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>

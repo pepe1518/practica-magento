@@ -19,13 +19,29 @@
         <models>
             <helloworld>
                 <class>Jose_Helloworld_Model</class>
+                <resourceModel>helloworld_resource</resourceModel>
             </helloworld>
+            <helloworld_resource>
+                <class>Jose_Helloworld_Model_Resource</class>
+            </helloworld_resource>
             <catalog>
                 <rewrite>
                     <product>Jose_Helloworld_Model_Catalog_Product</product>
                 </rewrite>
             </catalog>
         </models>
+        <resources>
+            <helloworld_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </helloworld_write>
+            <helloworld_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </helloworld_read>
+        </resources>
     </global>
     <frontend>
         <routers>
