@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Jose_Holamundo>
+            <version>1.0</version>
+        </Jose_Holamundo>
+    </modules>
+    <global>
+        <blocks>
+            <holamundo>
+                <class>Jose_Holamundo_Block</class>
+            </holamundo>
+        </blocks>
+        <helpers>
+            <holamundo>
+                <class>Jose_Holamundo_Helper</class>
+            </holamundo>
+        </helpers>
+        <models>
+            <holamundo>
+                <class>Jose_Holamundo_Model</class>
+            </holamundo>
+        </models>
+    </global>
+    <frontend>
+        <routers>
+            <holamundo>
+                <use>standard</use>
+                <args>
+                    <module>Jose_Holamundo</module>
+                    <frontName>holamundo</frontName>
+                </args>
+            </holamundo>
+        </routers>
+    </frontend>
+</config>
